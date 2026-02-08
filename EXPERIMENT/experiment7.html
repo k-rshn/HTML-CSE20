@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Navigation Menu</title>
+</head>
+<style>
+    main{
+       box-sizing: border-box; 
+       border: 3px solid black;
+    }
+    .header{  
+        margin: 5px;
+        display: block;
+        padding: 10px;
+        text-align: center;
+        background-color: aqua;
+    }
+    header span{
+        margin: 3px;
+        display: inline;
+        color: red;
+    }
+    .first ul{
+        list-style: none;
+        padding: 0;
+        margin-left: 5px;
+    }
+    .first li{
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .first li a{
+        text-decoration: none;
+        padding: 5px;
+        background-color: lightgreen;
+    }
+    .second ul{
+        list-style: none;
+        padding: 0;
+        margin-left: 5px;
+    }
+    .second li{
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .second li a{
+        text-decoration: none;
+        padding: 5px;
+        background-color: lightblue;
+    }
+</style>
+<body>
+    <main>
+    <header class="header">
+        <h2>My<span class="Website"> Website</span> Navigation</h2>
+    </header>
+    <nav class="first">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <nav class="second">
+        <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Messeges</a></li>
+            <li><a href="#">Logout</a></li>
+        </ul>
+    </nav>
+    </main>
+</body>
+</html>
