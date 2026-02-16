@@ -1,0 +1,148 @@
+/* Basic Page Setup */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f8f8f8;
+}
+
+/* --- HEADER --- */
+header {
+    background: white;
+    padding: 20px;
+    display: flex; /* Aligns Logo, Search, Cart in a row */
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.search-bar {
+    flex-grow: 1; /* Makes search bar take up available space */
+    display: flex;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid black;
+}
+
+.search-bar button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.cart a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+/* --- NAV BAR --- */
+nav {
+    background: white;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+nav a {
+    text-decoration: none;
+    color: #555;
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* --- BANNER --- */
+.banner {
+    background-color: #e8f0fe;
+    padding: 50px;
+    text-align: center;
+    margin: 20px;
+}
+
+.banner h1 {
+    margin: 0 0 10px 0;
+}
+
+.banner-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.banner-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+/* --- PRODUCT SECTION --- */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-row {
+    display: flex;
+    justify-content: center; /* Centers items */
+    gap: 20px; /* Space between cards */
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+    width: 200px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    cursor: pointer; /* Shows hand icon on hover */
+}
+
+.card h3 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.card button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* --- FOOTER --- */
+footer {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+}
